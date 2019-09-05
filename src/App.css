@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  align-items: stretch;
+}
+
+.question {
+  flex: 1;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction:  column;
+}
+.myColumn {
+     display: flex;
+    flex-direction:  column;
+}
+.myRow {
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+
+}
+ .zero  {
+     flex-grow: 2;
+ }
+
+ .flex-container button {
+     height: 100px;
+     width: 100px;
+ }
+ .flex-container .long {
+     height: 200px;
+ }
